@@ -347,9 +347,8 @@ Style/FrozenStringLiteralComment:
   Enabled: false
   SupportedStyles:
   - always
-  - always_true
   - never
-  EnforcedStyle: always_true
+  EnforcedStyle: always
 
 Style/GlobalVars:
   Description: Do not introduce global variables.
@@ -812,20 +811,20 @@ Style/SpecialGlobalVars:
   StyleGuide: https://github.com/rubocop-hq/ruby-style-guide#no-cryptic-perlisms
   Enabled: true
 
-Style/HashEachMethods:
-  Description: Enforce use of each_key and each_value Hash methods.
-  StyleGuide: https://docs.rubocop.org/en/latest/cops_style/#stylehasheachmethods
-  Enabled: false
+# Style/HashEachMethods:
+#   Description: Enforce use of each_key and each_value Hash methods.
+#   StyleGuide: https://docs.rubocop.org/en/latest/cops_style/#stylehasheachmethods
+#   Enabled: false
 
-Style/HashTransformKeys:
-  Description: Enforce use of transform_keys Hash methods. Not suggested for use below ruby 2.5
-  StyleGuide: https://docs.rubocop.org/en/latest/cops_style/#stylehashtransformkeys
-  Enabled: false
+# Style/HashTransformKeys:
+#   Description: Enforce use of transform_keys Hash methods. Not suggested for use below ruby 2.5
+#   StyleGuide: https://docs.rubocop.org/en/latest/cops_style/#stylehashtransformkeys
+#   Enabled: false
 
-Style/HashTransformValues:
-  Description: Enforce use of transform_values Hash methods. Not suggested for use below ruby 2.5
-  StyleGuide: https://docs.rubocop.org/en/latest/cops_style/#stylehashtransformvalues
-  Enabled: false
+# Style/HashTransformValues:
+#   Description: Enforce use of transform_values Hash methods. Not suggested for use below ruby 2.5
+#   StyleGuide: https://docs.rubocop.org/en/latest/cops_style/#stylehashtransformvalues
+#   Enabled: false
 
 Style/StabbyLambdaParentheses:
   Description: Check for the usage of parentheses around stabby lambda arguments.
